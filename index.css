@@ -1,12 +1,29 @@
+.header_content {
+	min-height: 600px;
+	background-image: url('images/galaxy.jpg');
+	background-size: cover;
+	background-attachment: )xed;
+	color: rgba(255, 255, 255, 0.8);
+	font-style: oblique;
+	}
+
+.button_content {
+	background-color: rgba(12, 7, 41, 0.9),
+}
+
+.main_content {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
 ul.nav li{
     display: inline-block;
     padding-right: 10px;
     background-color: orange;
 }
 
-.nav {
-	color: white;
-}
+
+
+
 
 .about_blue {
 	background-color: #6495ED;

@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My website</title>
-        <link rel="stylesheet" type="text/css" href="my_website.css">
-    </head>
-    <body>
+
+<head>
+    <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Galactic Journey</title>
+</head>
+
+<body>
+    <div class='header_content'>
+        <div class="container">
+            <div class='row'>
+                <div class='col-sm-8'>
+                    <h1>Galactic journey</h1>
+                </div>
+
+                <div class='col-sm-4'>
+                    <h2>Blank for now...</h2>
+                </div>
+            </div>
+            <form role='form'>
+                <label for="email">Get details</label>
+                <input type="text" name="email" >
+                <button class="btn btn-success">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <div class='button_content'>
         <ul class='nav'>
             <li><a href="#explanation">Home</a></li>
             <li><a href="#about_blue">Section 1</a></li>
             <li><a href="#about_yellow">Section 2</a></li>
         </ul>
+    </div>
+
+    <div class='main_content'>
 
         <div id='page_content'>
 
@@ -56,6 +82,6 @@
                 </ul>
 
             </div>
-
+        </div>
     </body>
 </html>
