@@ -25,6 +25,13 @@ ul.nav li{
     padding: 20px;
 }
 
+.img-circle {
+	max-width: 150px;
+}
+
+.container {
+	column-rule-style: none;
+}
 
 .blue_item {
 	color: blue;
