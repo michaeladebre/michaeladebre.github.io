@@ -11,26 +11,45 @@ body {
 	background-image: url('images/galaxy.jpg');
 	background-size: cover;
 	background-attachment: fixed;
-	color: rgba(255, 255, 255, 0.8);
-	font-style: oblique;
-	padding-top: 50px;
 	padding-bottom: 20px;
 	}
 
+.headtitle {
+	color: rgba(255, 255, 255, 0.8);
+	font-style: oblique;
+	padding-top: 50px;
+}
+
+.formtitle {
+	color: rgba(255, 255, 255, 0.8);
+	padding-top: 100px;
+}
+
 ul.nav li{
 	display: inline-block;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 90px;
     margin-top: 40px;
-    padding: 20px;
+    padding: 10px;
+    border-style: ridge;
+    border-color: rgba(0, 0, 0, 0.1);
+    font-size: 20px;
 }
 
 .img-circle {
 	max-width: 150px;
 }
 
-.container {
-	column-rule-style: none;
+.info {
+	color: rgba(220, 30, 200, 0.65);
+}
+
+.page_content {
+	background-color: rgba(140, 140, 140, 0.2);
+	border-radius: 20px;
+	padding: 30px;
+	border-style: ridge;
+	border-color: rgba(140, 140, 140, 0.1)
 }
 
 .blue_item {
@@ -40,4 +59,3 @@ ul.nav li{
 .product_item {
 	color: orange;
 }
-
