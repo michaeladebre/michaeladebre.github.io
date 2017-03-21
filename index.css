@@ -42,20 +42,35 @@ ul.nav li{
 
 .info {
 	color: rgba(220, 30, 200, 0.65);
+	margin-bottom: 30px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page_content {
-	background-color: rgba(140, 140, 140, 0.2);
+	background-color: rgba(70, 70, 100, 0.2);
 	border-radius: 20px;
 	padding: 30px;
 	border-style: ridge;
-	border-color: rgba(140, 140, 140, 0.1)
+	border-color: rgba(40, 40, 40, 0.1);
+}
+
+.explanation {
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .blue_item {
-	color: blue;
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .product_item {
-	color: orange;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.img-circle {
+
 }
