@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+    background: black;
+}
+
+.header_content {
+	min-height: 300px;
+	background-image: url('images/moon2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 20px;
+	color: rgba(255, 255, 255, 0.8);
+	font-style: oblique;
+	padding-top: 15px;
+}
+
+.main {
+	background-color: rgba(70, 70, 100, 0.2);
+	border-radius: 20px;
+	padding: 30px;
+	border-style: ridge;
+	border-color: rgba(40, 40, 40, 0.1);
+	margin-top: 30px;
+	color: rgba(255, 255, 255, 0.8);
+	font-family: helvetica;
+}
